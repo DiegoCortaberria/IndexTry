@@ -1,0 +1,220 @@
+
+/* Color de fondo */
+
+
+body {background-color: rgb(241, 241, 171);}
+
+/* Estilos de texto */
+
+h1 {color:rgb(18, 37, 204); font-family: Arial, Helvetica, sans-serif; text-decoration: underline ; }
+h2 {color: blue; font-style: italic; }
+h4 {font-size: 1.2em; }
+p { color: rgb(18, 2, 2); font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+/* Estilo de listas para el menú principal */
+
+ul.menu { 
+    border: 2px solid #7c7c7c;
+    list-style:none;
+    margin: 20px;
+    padding: 0;
+    width: 210px; 
+    box-shadow: 5px 5px 10px;
+}
+
+ul.menu li {
+    background: rgb(208, 219, 232);
+    border-bottom: 1px solid #9b9090;
+    border-top: 1px solid rgb(189, 162, 162);
+}
+
+ul.menu li a {
+    color: rgb(21, 19, 19);
+    display: block;
+    padding: .2em 0 .2em 1em;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+/* Estilos de los enlaces */
+
+  /* Enlace no visitado */
+  a:link {
+    color: rgb(0, 0, 255);
+  }
+  
+  /* Enlace ya visitado */
+  a:visited {
+    color: rgb(255, 0, 0);
+  }
+  
+  /* Ratón sobre el enlace */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* Enlace seleccionado */
+  a:active {
+    color: rgb(0, 255, 0);
+  }
+
+/* Estilo de tablas */
+
+table.demografia {
+    border-collapse: collapse;
+    border-style: double;
+    border-color: black;
+    caption-side: bottom;
+    background-color: beige;
+}
+
+th { 
+    padding: 10px; 
+    font-size: 1.2em;
+}
+td { padding: 10px; }
+
+caption { 
+    font-style: oblique; 
+    font-weight: bold;
+}
+
+/* Estilo de formulario */
+
+fieldset legend {font-size: large; }
+
+form { padding: 0.5em; }
+
+fieldset div {
+    margin: 1.5em;
+  }
+fieldset  div label {
+    font-style: italic;
+    width: 25%;
+    float: left;
+  }
+
+fieldset input:focus {
+    border: 2px solid #000;
+    background: #F3F3F3;
+  }
+
+fieldset input {color: rgb(22, 22, 121);}
+fieldset textarea {color: rgb(22, 22, 121)}
+
+fieldset label { 
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+input.enviar { font-weight: bold; }
+
+/* Estilo de caja */
+
+.parrafo h2{
+    text-decoration: underline; 
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.parrafo1, parrafo2, parrafo3 {
+    background-color: rgb(208, 219, 232); 
+    border: 3px solid rgb(109, 112, 109);
+    padding: 5px;/*
+    margin: 15px;*/
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px;
+}
+
+.parrafo1{
+    float: left;
+    margin: 1.5%;
+    width: 28%;
+}
+
+.parrafo2{
+    float: center;
+    margin: 1.5%;
+    width: 28%;
+}
+
+.parrafo3{
+    float: rigth;
+    margin: 1.5%;
+    width: 28%;
+}
+
+#estructura { 
+    text-align:center ;
+}
+
+.piramide { 
+    text-align: center;
+}
+
+/* Estilo para las fotos */
+
+.parrafo img {
+    border: 2px solid black;
+    padding: 8px;
+    margin: 5px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* Estilo de posicionamiento de la foto inicial */
+
+.foto {
+    object-fit: fill; 
+}
+
+/* Estilo de posicionamiento de videos */
+
+.contenedor {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor h2{
+    text-decoration: underline;
+}
+
+/* Estilo foto página de inicio */
+
+.foto {
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+}
+
+/* Estilo mapa */
+
+.mapa {
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+}
+
+.el1 {
+    float:right;
+    margin: 0;
+    width: 30%;
+}
+
+.el2 {
+    float: center;
+    margin: 0;
+    width: 30%;
+}
+
+.el3 {
+    float: left;
+    margin: 0;
+    width: 30%;
+}
+
+#primero{
+    background-color: aliceblue;
+}
